@@ -1,0 +1,29 @@
+.header-container {
+  height: 80px;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 120px;
+}
+.logo {
+  font-size: 40;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 70px;
+}
+.btn-icon {
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.btn-icon:hover {
+  background-color: rgb(167, 166, 166);
+  border-radius: 5%;
+}
