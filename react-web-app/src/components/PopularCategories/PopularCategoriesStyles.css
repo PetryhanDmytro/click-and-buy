@@ -1,0 +1,16 @@
+.popular-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-title {
+  margin: 0;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.categories-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-between;
+}
