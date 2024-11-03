@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Navigation from "../../components/Navigation";
 import HomePage from "../HomePage";
 import ProductPage from "../ProductPage";
+import CatalogPage from "../CatalogPage";
 import AboutStorePage from "../AboutStorePage";
 export default function MainPage() {
   return (
@@ -11,7 +12,8 @@ export default function MainPage() {
       <Navigation />
       {/* <HomePage /> */}
       {/* <ProductPage /> */}
-      <AboutStorePage />
+      <CatalogPage />
+      {/* <AboutStorePage /> */}
     </div>
   );
 }
