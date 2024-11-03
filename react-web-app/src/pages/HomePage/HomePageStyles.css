@@ -1,0 +1,6 @@
+.homePage-container {
+  margin: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
