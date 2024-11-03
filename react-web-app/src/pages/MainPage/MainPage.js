@@ -5,6 +5,7 @@ import HomePage from "../HomePage";
 import ProductPage from "../ProductPage";
 import CatalogPage from "../CatalogPage";
 import AboutStorePage from "../AboutStorePage";
+import AuthPage from "../AuthPage";
 export default function MainPage() {
   return (
     <div className="home-page">
@@ -14,6 +15,7 @@ export default function MainPage() {
       {/* <ProductPage /> */}
       <CatalogPage />
       {/* <AboutStorePage /> */}
+      <AuthPage />
     </div>
   );
 }
